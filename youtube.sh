@@ -12,6 +12,6 @@ then
     echo "`date`: $SERVICE is running, your videos is downloading"
 else
     echo "$SERVICE is not running and going to run now"
-    touch $homedir/tube
+
     youtube-dl -c -a $homedir/tube
 fi
