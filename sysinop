@@ -237,7 +237,7 @@ pause
 }
 
 #Purpose - For getting  User operation and infrmations
-function user_info() {
+function user_infos() {
 
 write_header "User Operations"
 
@@ -674,7 +674,7 @@ case $c in
 7) ip_info ;;
 8) disk_info ;;
 9) proc_info ;;
-10) user_info ;;
+10) user_infos ;;
 11) file_info ;;
 12) echo "Bye!"; exit 0 ;;
 *) 
